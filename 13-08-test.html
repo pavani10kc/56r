@@ -9,21 +9,21 @@
     <div align="center">
 <h1>JOHN DEO'S WEB PORTFOLIO</h1>
 <h6><i>show casing HTML skills using tables:</i></h6>
-<a href="">about</a>
-<a href="">skill</a>
-<a href="">projects</a>
-<a href="">contact</a><hr>
+<a href="#about">about</a>
+<a href="#skill">skill</a>
+<a href="#projects">projects</a>
+<a href="#contact">contact</a><hr>
     </div>
-    <table border="1">
+    <table border="1" align="center" cellspacing="0">
         <tr><td colspan="2">
-           <h2>about me:</h2>
+           <h2 id="about">about me:</h2>
            <p>hello i am john deo.a passionate web developer. i love building  semantic, accesible,and responsive,websites using core wed tachnologies</p>
             <p> iI spealize in front-end development, especially,HTML,CSS & Java script</p>
         <img src="./codeimghtml_files/csslogo1.jpeg" alt="" width="50" align="right">
         </td></tr>
     
         <tr>
-            <td>
+            <td id="skill">
                 <h2>skill:</h2>
                 <ul>
                     <li>HTML/(CSS)</li>
@@ -33,7 +33,7 @@
                 </ul>
               <h2>skill levels:</h2>
 
-              <table border="1">
+              <table border="1" cellspacing="0">
 <tr>
     <td>skill</td>
     <td>level</td>
@@ -59,7 +59,7 @@
 
             </td>
             <td>
-<h2>projects</h2>
+<h2 id="projects">projects</h2>
 <ol>
 
     <li>portfolio website</li>
@@ -72,12 +72,52 @@
             </td>
         </tr>
 
-        <tr colspan="2">
+        <tr>
 
-         <td><h2>contact me</h2>
+         <td colspan="2" id="contact"><h2>contact me</h2>
+            <form action="" align="center">
+<fieldset><legend>contact form</legend>
+<label for="full name">full name: &nbsp;&nbsp;&nbsp;&nbsp;</label>
+<input type="text" name="full name" id="full name"><br>
+
+<label for="email">email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+<input type="email" name="email" id="email"><br>
+
+<label for="gender">gender &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+<label for="male">Male</label>
+<input type="radio" name="gender" id="male" value="male">
+
+<label for="Female">Female</label>
+<input type="radio" name="gender" id="Female" value="female"><br>
+
+<label for="web">services Intrested:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+<label for="web design">web design</label>
+<input type="checkbox" name="web" id="web design">
+<label for="SEO">SEO</label>
+<input type="checkbox" name="web" id="SEO"><br>
+
+<label for="country">country &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+<select  name="country" id="country">
+   <option value="USA">USA</option>
+    <option value="INDIA">INDIA</option>
+    <option value="LONDON">LONDON</option> </select><br>
+ <label for="message">message:</label>
+  <textarea name="message" id="message"></textarea><br>
+  <input type="submit">
+  <input type="submit" name="clear" id="clear">
+          </fieldset>
+         </form>
         </td>
         </tr>
-        <tr></tr>
+        <tr>
+            <td colspan="2" align="center">
+                <h5>last updated:august 13,2025</h5>
+                <h5><i>created by john deo</i></h5>
+                 <h5><i>Email:john@example.com</i></h5>
+                  <h5><i>Website:example.com</i></h5>
+                  <h5>2025 john Doe.all rights reserved</h5>
+            </td>
+        </tr>
     </table>
 
 
